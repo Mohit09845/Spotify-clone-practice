@@ -1,0 +1,74 @@
+.bg-black {
+    background-color: black;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.img {
+    width: 23px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.round {
+    border-radius: 9px;
+}
+
+.p-1 {
+    padding: 23px;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.765);
+    font-size: 0.93rem;
+}
+
+.hover-line {
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-line::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: aliceblue;
+    visibility: hidden;
+}
+
+.hover-line:hover::after {
+    visibility: visible;
+}
